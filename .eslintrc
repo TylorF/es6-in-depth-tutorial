@@ -1,0 +1,18 @@
+{
+  "extends": ["eslint:recommended", "google"],
+  "env": {
+    "browser": true,
+    "jquery": true
+  },
+  "parserOptions": {
+        "ecmaVersion": 6,
+         "sourceType": "module"
+  },
+  "globals": {
+      "d3": false /* false means we can't overwrite it */
+  },
+  "rules": {
+    require-jsdoc: "off",
+    no-console: "off"
+  }
+}
